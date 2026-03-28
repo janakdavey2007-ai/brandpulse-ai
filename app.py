@@ -12,7 +12,6 @@ import time
 import random
 from datetime import datetime, timedelta
 import re
-import nltk
 from collections import deque
 import json
 
