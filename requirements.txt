@@ -11,6 +11,5 @@ numpy\
 plotly\
 nltk\
 scikit-learn\
-tensorflow\
 \
 }
