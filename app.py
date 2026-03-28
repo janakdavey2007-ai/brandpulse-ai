@@ -21,7 +21,7 @@ def download_nltk_data():
     try:
         nltk.data.find('tokenizers/punkt')
         nltk.data.find('corpora/stopwords')
-    except LookupError:
+
         
 
 # Page config
