@@ -15,12 +15,7 @@ import re
 from collections import deque
 import json
 
-# Download required NLTK data
-@st.cache_resource
-def download_nltk_data():
-    try:
-        nltk.data.find('tokenizers/punkt')
-        nltk.data.find('corpora/stopwords')
+
 
         
 
