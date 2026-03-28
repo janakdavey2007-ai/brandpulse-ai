@@ -22,10 +22,7 @@ def download_nltk_data():
         nltk.data.find('tokenizers/punkt')
         nltk.data.find('corpora/stopwords')
     except LookupError:
-        nltk.download('punkt', quiet=True)
-        nltk.download('stopwords', quiet=True)
-
-download_nltk_data()
+        
 
 # Page config
 st.set_page_config(
